@@ -50,8 +50,4 @@ public class Stack {
 		}
 	}
 	
-	//输出当前栈
-	public void printStack() {
-		
-	}
 }
