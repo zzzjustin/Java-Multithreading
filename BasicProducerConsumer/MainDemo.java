@@ -24,13 +24,13 @@ public class MainDemo {
 		pcThreadPool.execute(consumer1);
 		pcThreadPool.execute(consumer2);
 		
-		Thread.sleep(3*1000);
+		Thread.sleep(3000);
 		producer1.stopProducer();
 		producer2.stopProducer();
 		consumer1.stopConsumer();
 		consumer2.stopConsumer();
 		
-		Thread.sleep(5*1000);
+		Thread.sleep(5000);
 		pcThreadPool.shutdown(); //关闭线程池
 	}
 
